@@ -1,0 +1,228 @@
+
+@font-face {
+    font-family: 'New-YorkerC';
+    src: url('font/New-YorkerC.ttf');
+}
+@font-face {
+    font-family: 'Trajan Sans pro';
+    src: url('font/TrajanSansPro-Regular.otf');
+}
+
+
+
+body{
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+    color: #514F4A;
+    font-size: 16px;
+    font-family: 'Trajan Sans pro';
+    
+
+}
+
+
+span, h3{
+    color: #AD9079;
+  }
+  h3{
+      font-family: 'New-YorkerC';
+      font-size: 32px;
+  }
+  
+  .wrapper {
+      width: 325px;
+      overflow-x: hidden;
+      position: relative;
+      margin: 0 auto;
+      z-index: 5;
+  }
+  .round{
+      position: absolute;
+      z-index: 1;
+  }
+  .round_one{
+    right: -2.5%;
+    top: -13%;
+      
+      
+  }
+  .round_two{
+    transform: rotate(180deg);
+    top: 239px;
+    left: -2.5%;
+    
+  
+  }
+  .round_three{
+    top: 579px;
+     right: -2.5%;
+  }
+  .round_four{
+    transform: rotate(180deg);
+    top: 950px;
+    left: -2.5%;
+
+  }
+  .round_five{
+      bottom: 106px;
+      right: -2.5%;
+  }
+  .round_six{
+    transform: rotate(90deg);
+    bottom: -200px;
+    margin: 0 auto;
+  }
+  .header {
+      z-index: 5;
+  }
+  h1 {
+      font-family: 'New-YorkerC';
+      position: relative;
+      left: 35px;
+      margin-bottom: 10%;
+      font-size: 36px;
+      font-weight: 500;
+     line-height: 130%;
+     z-index: 5;
+     text-shadow: 0px 1px 0.5px #514F4A,
+                  1px 0px 0.5px #514F4A,
+                  0px -1px 0.5px #514F4A,
+                  -1px 0px 0.5px #514F4A;
+     color: #fff;
+  }
+  .photo{
+    display: inline-block;
+    margin: 0 20%;
+    margin-bottom: 10%;
+    z-index: 5;
+  
+  }
+  .wrapper__header {
+  }
+  h2{
+      margin-bottom: 30px;
+      font-size: 32px;
+      font-family: 'New-YorkerC';
+      z-index: 5;
+  }
+  .minTitle {
+      margin-bottom: 50px;
+      z-index: 5;
+  }
+  .wrapper__header__about {
+      font-size: 18px;
+      z-index: 5;
+  }
+  .wrapper__header__help {
+    font-size: 18px;
+      z-index: 5;
+  }
+  .wrapper__header__line {
+      position: relative;
+      left: 50%;
+      width: 0px;
+      height: 158px;
+      border: 1px solid #514F4A;
+      z-index: 5;
+  }
+  .main {
+      margin-top: 30px;
+      position: relative;
+
+  }
+  .main__block{
+    border: 1px solid #514F4A;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 10px;
+
+  }
+  .block__title{
+    position: relative;
+    margin: 5px 0;
+    text-align: center;
+    font-size: 20px;
+  }
+  .block__text{
+    position: relative;
+    margin: 5px 0;
+    text-align: center;
+    font-size: 17px;
+
+      
+  }
+  .block__promo{
+    position: relative;
+    margin: 5px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .block__about{
+    position: relative;
+    margin-left: 15px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: underline; 
+ 
+
+  }
+  .footer {
+      z-index: 5;
+  }
+  .wrapper__footer {
+      z-index: 5;
+  }
+  .box {
+     display: flex;
+     margin-bottom: 10%;
+     border: 1px solid #AD9079;
+     border-radius: 8px;
+     padding: 15px;
+     color: #AD9079;
+     font-size: 17px;
+     height: 35px;
+     z-index: 5;
+     
+  }
+  .box p{
+      position: relative;
+      top: -8px;
+      z-index: 5;
+      
+  }
+  
+  .img_box{
+      margin-right: 10%;
+      width: 34px;
+      height: 34px;
+      z-index: 5;
+      
+  }
+  .wrapper__footer__inst {
+  }
+  .wrapper__footer__whats {
+  }
+  .wrapper__footer__telegram {
+  }
+  .popup{
+     border-radius: 5px;
+     height: 28px;
+      background-color: #D5C3B2;
+      padding: 3px 10px;
+      color: #fff;
+      position: absolute;
+      bottom: 25px;
+      left: 30px;
+      font-size: 19px;
+      font-family: arial;
+      
+  }
+  .popup p{
+      position: relative;
+      top: -17px;
+  }
