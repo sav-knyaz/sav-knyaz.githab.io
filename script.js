@@ -70,9 +70,14 @@ for (const item of blocks) {
 
 
      aboutText.addEventListener('pointerdown', ()=>{
-         navigator.clipboard.writeText(`${item.promoCode}`);
-      
+         navigator.clipboard.writeText(`${item.promoCode}`)
+        .then(() =>{
          popUp(article);
+
+         })
+         .catch( err => {
+             alert('error copy')
+         }, err);
 
        
      })   
